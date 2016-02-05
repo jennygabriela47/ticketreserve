@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css"  type="text/css">
+    <link rel="stylesheet" href="../css/estilo.css" type="text/css">
+    <title>Reserva</title>
+</head>
+<body ng-app="myApp" ng-controller="reservaCtrl">
+	<header>
+		<img alt="" src="../img/ticketMaster.png">
+	</header>
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#colapsar">
+					<span class="sr-only">Inicio/Ocultar - Desplegar</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="Home" class="navbar-brand">Inicio</a>
+		</div>
+		<div class="collapse navbar-collapse" id="colapsar">
+			<ul class="nav navbar-nav">
+				<li><a href="ListarEvento">Eventos</a></li>
+				<li><a href="Registro">Crear una cuenta</a></li>
+				<li><a href="Login">Iniciar Sesi&oacute;n</a></li>		
+				<li><a href="Salir">Salir</a></li>						
+			</ul>
+		</div>
+	</nav>
+	<section>
+		<table align="center">
+			<tr>
+				<td class="td">Evento</td>
+				<td class="td">Lugar<td>
+				<td class="td">Entrada</td>
+				<td class="td">Cantidad</td>
+				<td class="td">Precio</td>
+			</tr>
+			<tr>
+				
+			</tr>
+		</table>
+		<h5>Total: </h5>
+		<button type="submit" class="boton">Reservar</button>
+	</section>
+	<footer>
+		<hr/>
+		<table align="center">
+			<tr>
+				<td>Derechos Reservados</td>
+			</tr>
+		</table>
+	</footer>
+</body>
+</html>

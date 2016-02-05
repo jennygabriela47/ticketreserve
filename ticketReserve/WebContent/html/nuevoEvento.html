@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css"  type="text/css">
+    <link rel="stylesheet" href="../css/estilo.css" type="text/css">
+     <link href="../css/kendo.common.min.css" rel="stylesheet" />
+    <link href="../css/kendo.default.min.css" rel="stylesheet" />
+
+	<script src="../js/libs/jquery.min.js"></script>
+	<script src="../js/libs/angular.min.js"></script>
+    <script src="../js/libs/kendo.web.min.js"></script>
+    <script src="../js/libs/angular-kendo.min.js"></script>
+	<script src="../js/app.js"></script>
+	<script src="../js/eventoCtrl.js"></script>
+    <title>Nuevo Evento</title>
+</head>
+<body  ng-app="myApp" ng-controller="eventoCtrl">
+	<header>
+		<img alt="" src="../img/ticketMaster.png">
+	</header>
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#colapsar">
+					<span class="sr-only">Inicio/Ocultar - Desplegar</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="Home" class="navbar-brand">Inicio</a>
+		</div>
+		<div class="collapse navbar-collapse" id="colapsar">
+			<ul class="nav navbar-nav">
+				<li><a href="ListarEvento">Eventos</a></li>
+				<li><a href="Registro">Crear una cuenta</a></li>
+				<li><a href="Login">Iniciar Sesi&oacute;n</a></li>		
+				<li><a href="Salir">Salir</a></li>						
+			</ul>
+		</div>
+	</nav>
+	<section>
+		<div align="center">
+	<h1><b>Evento Nuevo</b> </h1>
+	<br>
+	<br>
+		<form ng-app="myApp" ng-controller="eventoCtrl">
+			<table>
+				<tr>
+					<td class="td">Nombre: </td>
+					<td class="td"><input type="text" name="nombre" class="campoTexto" ng-model="nuevoEvento.nombreevento"></td>
+				</tr>
+				<tr>
+					<td class="td">Descripci&oacute;n: </td>
+					<td class="td"><textarea name="message" rows="3" cols="50" class="campoTexto" ng-model="nuevoEvento.descripcionevento"> </textarea></td>
+				</tr>
+				<tr>
+					<td class="td">Fecha: </td>
+					<td class="td"><input type="text" name="fecha" class="campoTexto" ng-model="nuevoEvento.fechaevento"></td>
+				</tr>
+				<tr>
+					<td class="td">Hora: </td>
+					<td class="td"><input type="text" name="hora" class="campoTexto" ng-model="nuevoEvento.horaevento"></td>
+				</tr>
+				<tr>
+				<td class="td">Ubicaci&oacute;n: </td>
+						<td class="td">
+							<select name="ubicacion" class="campoCombo" id="value" >		
+							<option ng-repeat="u in ubicacion" value="{{u.codigoubicacion}}" ng-model="nuevoEvento.codigoubicacion">{{u.nombreubicacion}} </option>
+								
+							</select>	
+							<input type="button" class="boton" ng-click="registrar(u)" value="Registrar" />											
+						</td>			
+					
+				</tr>
+				
+				<tr align="center">
+					<td colspan="2" class="td" >
+						<!-- <button type="submit" class="boton" ng-click="registrar()">Registrar</button> -->
+					</td>
+				</tr>
+			</table>
+		</form>		
+	</div>
+	</section>
+	<footer>
+		<hr/>
+		<table align="center">
+			<tr>
+				<td>Derechos Reservados</td>
+			</tr>
+		</table>
+	</footer>
+</body>
+</html>

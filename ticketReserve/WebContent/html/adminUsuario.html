@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css"  type="text/css">
+    <link rel="stylesheet" href="../css/estilo.css" type="text/css">
+     <link href="../css/kendo.common.min.css" rel="stylesheet" />
+    <link href="../css/kendo.default.min.css" rel="stylesheet" />
+
+	<script src="../js/libs/jquery.min.js"></script>
+	<script src="../js/libs/angular.min.js"></script>
+    <script src="../js/libs/kendo.web.min.js"></script>
+    <script src="../js/libs/angular-kendo.min.js"></script>
+	<script src="../js/app.js"></script>
+	<script src="../js/usuarioCtrl.js"></script>
+    
+    <title>Evento</title>
+</head>
+<body ng-app="myApp" ng-controller="usuarioCtrl">
+	<header>
+		<img alt="" src="../img/ticketMaster.png">
+	</header>
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#colapsar">
+					<span class="sr-only">Inicio/Ocultar - Desplegar</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="Home" class="navbar-brand">Inicio</a>
+		</div>
+		<script>
+		debugger;
+		</script>
+		<div class="collapse navbar-collapse" id="colapsar">
+			<ul class="nav navbar-nav">
+				<li><a href="ListarEvento">Eventos</a></li>
+				<li><a href="Registro">Crear una cuenta</a></li>
+				<li><a href="Login">Iniciar Sesi&oacute;n</a></li>		
+				<li><a href="Salir">Salir</a></li>						
+			</ul>
+		</div>
+	</nav>
+	<section>
+		<br/>
+		<script>
+		debugger;
+		</script>
+		<div align="center" ng-app="myApp" ng-controller="usuarioCtrl">
+	<h1><b>Usuarios Registrados</b> </h1>
+				
+			<div> 
+			  	<table border="1">
+	
+		
+			  	
+					<tr>
+						<th>Codigo</th><th>Nombre</th><th>Apellido</th><th>Cedula</th><th>Correo Electronico</th><th>Usuario</th><th>Contraseña</th>
+					</tr>
+					<tr ng-repeat="u in usuario">
+						<td>{{ u.codigousuario}}</td>
+			    		<td>{{u.nombre}}</td>
+			    		<td>{{u.apellido}}</td>
+			    		<td>{{u.cedula}}</td>
+			    		<td>{{u.correoelectronico}}</td>
+			    		<td>{{u.usuario}}</td>
+			    		<td>{{u.contrasenia}}</td>
+					</tr>
+				</table>
+				<script>
+		debugger;
+		</script>	
+			</div>
+		<br/>
+		</div>
+	</section>
+	<footer>
+		<hr/>
+		<table align="center">
+			<tr>
+				<td>Derechos Reservados</td>
+			</tr>
+		</table>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,668 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'cordova',
+1 verbose cli   'ionic' ]
+2 info using npm@3.3.12
+3 info using node@v5.3.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData cordova
+8 silly fetchPackageMetaData ionic
+9 silly fetchNamedPackageData cordova
+10 silly mapToRegistry name cordova
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry uri https://registry.npmjs.org/cordova
+14 silly fetchNamedPackageData ionic
+15 silly mapToRegistry name ionic
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/ionic
+19 verbose request uri https://registry.npmjs.org/cordova
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 21:51:44
+22 verbose request using bearer token for auth
+23 verbose request id 9ffe9e9b17d244ce
+24 http request GET https://registry.npmjs.org/cordova
+25 verbose request uri https://registry.npmjs.org/ionic
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 21:51:44
+28 verbose request using bearer token for auth
+29 http request GET https://registry.npmjs.org/ionic
+30 http 200 https://registry.npmjs.org/ionic
+31 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+31 verbose headers   etag: '"7G1FGTUXR5ONSOSPPFM7ZD99A"',
+31 verbose headers   'content-type': 'application/json',
+31 verbose headers   'cache-control': 'max-age=300',
+31 verbose headers   'content-length': '661474',
+31 verbose headers   'accept-ranges': 'bytes',
+31 verbose headers   date: 'Sat, 09 Jan 2016 02:51:56 GMT',
+31 verbose headers   via: '1.1 varnish',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'x-served-by': 'cache-iad2146-IAD',
+31 verbose headers   'x-cache': 'MISS',
+31 verbose headers   'x-cache-hits': '0',
+31 verbose headers   'x-timer': 'S1452307916.640239,VS0,VE336',
+31 verbose headers   vary: 'Accept' }
+32 silly get cb [ 200,
+32 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+32 silly get     etag: '"7G1FGTUXR5ONSOSPPFM7ZD99A"',
+32 silly get     'content-type': 'application/json',
+32 silly get     'cache-control': 'max-age=300',
+32 silly get     'content-length': '661474',
+32 silly get     'accept-ranges': 'bytes',
+32 silly get     date: 'Sat, 09 Jan 2016 02:51:56 GMT',
+32 silly get     via: '1.1 varnish',
+32 silly get     connection: 'keep-alive',
+32 silly get     'x-served-by': 'cache-iad2146-IAD',
+32 silly get     'x-cache': 'MISS',
+32 silly get     'x-cache-hits': '0',
+32 silly get     'x-timer': 'S1452307916.640239,VS0,VE336',
+32 silly get     vary: 'Accept' } ]
+33 verbose get saving ionic to C:\Users\Gabriela\AppData\Roaming\npm-cache\registry.npmjs.org\ionic\.cache.json
+34 http 200 https://registry.npmjs.org/cordova
+35 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+35 verbose headers   etag: '"9REZ3YHLXN7FIPOE698SZ9NN2"',
+35 verbose headers   'content-type': 'application/json',
+35 verbose headers   'cache-control': 'max-age=300',
+35 verbose headers   'content-length': '371905',
+35 verbose headers   'accept-ranges': 'bytes',
+35 verbose headers   date: 'Sat, 09 Jan 2016 02:51:57 GMT',
+35 verbose headers   via: '1.1 varnish',
+35 verbose headers   connection: 'keep-alive',
+35 verbose headers   'x-served-by': 'cache-iad2123-IAD',
+35 verbose headers   'x-cache': 'MISS',
+35 verbose headers   'x-cache-hits': '0',
+35 verbose headers   'x-timer': 'S1452307916.679693,VS0,VE532',
+35 verbose headers   vary: 'Accept' }
+36 silly get cb [ 200,
+36 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+36 silly get     etag: '"9REZ3YHLXN7FIPOE698SZ9NN2"',
+36 silly get     'content-type': 'application/json',
+36 silly get     'cache-control': 'max-age=300',
+36 silly get     'content-length': '371905',
+36 silly get     'accept-ranges': 'bytes',
+36 silly get     date: 'Sat, 09 Jan 2016 02:51:57 GMT',
+36 silly get     via: '1.1 varnish',
+36 silly get     connection: 'keep-alive',
+36 silly get     'x-served-by': 'cache-iad2123-IAD',
+36 silly get     'x-cache': 'MISS',
+36 silly get     'x-cache-hits': '0',
+36 silly get     'x-timer': 'S1452307916.679693,VS0,VE532',
+36 silly get     vary: 'Accept' } ]
+37 verbose get saving cordova to C:\Users\Gabriela\AppData\Roaming\npm-cache\registry.npmjs.org\cordova\.cache.json
+38 silly install normalizeTree
+39 silly loadCurrentTree Finishing
+40 silly loadIdealTree Starting
+41 silly install loadIdealTree
+42 silly cloneCurrentTree Starting
+43 silly install cloneCurrentTreeToIdealTree
+44 silly cloneCurrentTree Finishing
+45 silly loadShrinkwrap Starting
+46 silly install loadShrinkwrap
+47 silly loadShrinkwrap Finishing
+48 silly loadAllDepsIntoIdealTree Starting
+49 silly install loadAllDepsIntoIdealTree
+50 silly resolveWithNewModule ionic@1.7.12 checking installable status
+51 silly cache add args [ 'ionic', null ]
+52 verbose cache add spec ionic
+53 silly resolveWithNewModule cordova@5.4.1 checking installable status
+54 silly cache add args [ 'cordova', null ]
+55 verbose cache add spec cordova
+56 silly cache add parsed spec Result {
+56 silly cache add   raw: 'ionic',
+56 silly cache add   scope: null,
+56 silly cache add   name: 'ionic',
+56 silly cache add   rawSpec: '',
+56 silly cache add   spec: '*',
+56 silly cache add   type: 'range' }
+57 silly addNamed ionic@*
+58 verbose addNamed "*" is a valid semver range for ionic
+59 silly addNameRange { name: 'ionic', range: '*', hasData: false }
+60 silly mapToRegistry name ionic
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry uri https://registry.npmjs.org/ionic
+64 verbose addNameRange registry:https://registry.npmjs.org/ionic not in flight; fetching
+65 silly cache add parsed spec Result {
+65 silly cache add   raw: 'cordova',
+65 silly cache add   scope: null,
+65 silly cache add   name: 'cordova',
+65 silly cache add   rawSpec: '',
+65 silly cache add   spec: '*',
+65 silly cache add   type: 'range' }
+66 silly addNamed cordova@*
+67 verbose addNamed "*" is a valid semver range for cordova
+68 silly addNameRange { name: 'cordova', range: '*', hasData: false }
+69 silly mapToRegistry name cordova
+70 silly mapToRegistry using default registry
+71 silly mapToRegistry registry https://registry.npmjs.org/
+72 silly mapToRegistry uri https://registry.npmjs.org/cordova
+73 verbose addNameRange registry:https://registry.npmjs.org/cordova not in flight; fetching
+74 verbose get https://registry.npmjs.org/ionic not expired, no request
+75 silly addNameRange number 2 { name: 'ionic', range: '*', hasData: true }
+76 silly addNameRange versions [ 'ionic',
+76 silly addNameRange   [ '0.9.6',
+76 silly addNameRange     '0.9.8',
+76 silly addNameRange     '0.9.9',
+76 silly addNameRange     '0.9.10',
+76 silly addNameRange     '0.9.11',
+76 silly addNameRange     '0.9.12',
+76 silly addNameRange     '0.9.13',
+76 silly addNameRange     '0.9.14',
+76 silly addNameRange     '0.9.15',
+76 silly addNameRange     '0.9.16',
+76 silly addNameRange     '1.0.0-beta.1',
+76 silly addNameRange     '1.0.0-beta',
+76 silly addNameRange     '1.0.1-beta',
+76 silly addNameRange     '1.0.3-beta',
+76 silly addNameRange     '1.0.4',
+76 silly addNameRange     '1.0.5',
+76 silly addNameRange     '1.0.6',
+76 silly addNameRange     '1.0.7',
+76 silly addNameRange     '1.0.8',
+76 silly addNameRange     '1.0.9',
+76 silly addNameRange     '1.0.10',
+76 silly addNameRange     '1.0.11',
+76 silly addNameRange     '1.0.12',
+76 silly addNameRange     '1.0.13',
+76 silly addNameRange     '1.0.14',
+76 silly addNameRange     '1.0.15',
+76 silly addNameRange     '1.0.16',
+76 silly addNameRange     '1.0.17',
+76 silly addNameRange     '1.1.0-beta1',
+76 silly addNameRange     '1.1.0-beta2',
+76 silly addNameRange     '1.1.0-beta3',
+76 silly addNameRange     '1.1.0-beta4',
+76 silly addNameRange     '1.1.0-beta5',
+76 silly addNameRange     '1.1.0-beta6',
+76 silly addNameRange     '1.1.0',
+76 silly addNameRange     '1.1.1-beta1',
+76 silly addNameRange     '1.1.1-beta2',
+76 silly addNameRange     '1.1.1-beta3',
+76 silly addNameRange     '1.1.1',
+76 silly addNameRange     '1.1.3',
+76 silly addNameRange     '1.1.4',
+76 silly addNameRange     '1.1.5-beta1',
+76 silly addNameRange     '1.1.5-beta2',
+76 silly addNameRange     '1.1.5-beta3',
+76 silly addNameRange     '1.1.5-beta4',
+76 silly addNameRange     '1.1.5-beta5',
+76 silly addNameRange     '1.1.5',
+76 silly addNameRange     '1.1.6',
+76 silly addNameRange     '1.1.7-beta1',
+76 silly addNameRange     '1.1.7',
+76 silly addNameRange     '1.1.8-beta1',
+76 silly addNameRange     '1.1.8-beta2',
+76 silly addNameRange     '1.1.8-beta3',
+76 silly addNameRange     '1.1.8-beta4',
+76 silly addNameRange     '1.1.8-beta5',
+76 silly addNameRange     '1.1.8',
+76 silly addNameRange     '1.1.9-beta1',
+76 silly addNameRange     '1.1.9',
+76 silly addNameRange     '1.1.10',
+76 silly addNameRange     '1.1.11-beta1',
+76 silly addNameRange     '1.1.11-beta2',
+76 silly addNameRange     '1.1.11',
+76 silly addNameRange     '1.1.12-beta1',
+76 silly addNameRange     '1.1.12-beta2',
+76 silly addNameRange     '1.1.12-beta3',
+76 silly addNameRange     '1.1.12',
+76 silly addNameRange     '1.1.13',
+76 silly addNameRange     '1.1.14-beta1',
+76 silly addNameRange     '1.1.14-beta2',
+76 silly addNameRange     '1.1.14-beta3',
+76 silly addNameRange     '1.2.0-beta1',
+76 silly addNameRange     '1.2.0',
+76 silly addNameRange     '1.2.1-beta1',
+76 silly addNameRange     '1.2.1-beta2',
+76 silly addNameRange     '1.2.1-beta3',
+76 silly addNameRange     '1.2.1-beta4',
+76 silly addNameRange     '1.2.1',
+76 silly addNameRange     '1.2.2',
+76 silly addNameRange     '1.2.3-beta1',
+76 silly addNameRange     '1.2.3-beta2',
+76 silly addNameRange     '1.2.3-beta3',
+76 silly addNameRange     '1.2.3',
+76 silly addNameRange     '1.2.4-beta1',
+76 silly addNameRange     '1.2.4-beta2',
+76 silly addNameRange     '1.2.4-beta3',
+76 silly addNameRange     '1.2.4',
+76 silly addNameRange     '1.2.5-beta1',
+76 silly addNameRange     '1.2.5-beta2',
+76 silly addNameRange     '1.2.5-beta3',
+76 silly addNameRange     '1.2.5',
+76 silly addNameRange     '1.2.6-beta1',
+76 silly addNameRange     '1.2.6-beta2',
+76 silly addNameRange     '1.2.6-beta3',
+76 silly addNameRange     '1.2.6',
+76 silly addNameRange     '1.2.7',
+76 silly addNameRange     '1.2.8-beta1',
+76 silly addNameRange     '1.2.8-beta2',
+76 silly addNameRange     '1.2.8',
+76 silly addNameRange     '1.2.9',
+76 silly addNameRange     '1.2.10',
+76 silly addNameRange     '1.2.11',
+76 silly addNameRange     '1.2.12',
+76 silly addNameRange     '1.2.13',
+76 silly addNameRange     '1.2.14-beta1',
+76 silly addNameRange     '1.2.14-beta2',
+76 silly addNameRange     '1.2.14-beta3',
+76 silly addNameRange     '1.2.14-beta4',
+76 silly addNameRange     '1.2.14-beta5',
+76 silly addNameRange     '1.2.14-beta6',
+76 silly addNameRange     '1.2.14',
+76 silly addNameRange     '1.3.0-beta1',
+76 silly addNameRange     '1.3.0',
+76 silly addNameRange     '1.3.1',
+76 silly addNameRange     '1.3.2',
+76 silly addNameRange     '1.3.3',
+76 silly addNameRange     '1.3.4',
+76 silly addNameRange     '1.3.5',
+76 silly addNameRange     '1.3.6',
+76 silly addNameRange     '1.3.7',
+76 silly addNameRange     '1.3.8',
+76 silly addNameRange     '1.3.9',
+76 silly addNameRange     '1.3.10',
+76 silly addNameRange     '1.4.0-alpha.1',
+76 silly addNameRange     '1.3.11',
+76 silly addNameRange     '1.3.1-1.alpha.0',
+76 silly addNameRange     '1.4.0-alpha.2',
+76 silly addNameRange     '1.3.12',
+76 silly addNameRange     '1.3.12-beta.1',
+76 silly addNameRange     '1.3.12-beta.2',
+76 silly addNameRange     '1.3.13-beta.0',
+76 silly addNameRange     '1.3.1-3.beta.1',
+76 silly addNameRange     '1.3.1-3.beta.2',
+76 silly addNameRange     '1.3.13',
+76 silly addNameRange     '1.3.1-3.beta.4',
+76 silly addNameRange     '1.3.14-beta',
+76 silly addNameRange     '1.3.14-beta.1',
+76 silly addNameRange     '1.4.0-alpha.3',
+76 silly addNameRange     '1.3.14',
+76 silly addNameRange     '1.4.0-alpha.4',
+76 silly addNameRange     '1.4.0-alpha.5',
+76 silly addNameRange     '1.3.15-beta.0',
+76 silly addNameRange     '1.3.15-beta.1',
+76 silly addNameRange     '1.3.15-beta.2',
+76 silly addNameRange     '1.3.15-beta.3',
+76 silly addNameRange     '1.3.15-beta.4',
+76 silly addNameRange     '1.3.15',
+76 silly addNameRange     '1.3.16',
+76 silly addNameRange     '1.4.0-alpha.6',
+76 silly addNameRange     '1.3.17-beta.0',
+76 silly addNameRange     '1.3.17-beta.1',
+76 silly addNameRange     '1.3.17-beta.2',
+76 silly addNameRange     '1.3.17-beta.3',
+76 silly addNameRange     '1.3.1-7.beta.4',
+76 silly addNameRange     '1.3.17',
+76 silly addNameRange     '1.3.18-beta.0',
+76 silly addNameRange     '1.3.18-beta.1',
+76 silly addNameRange     '1.3.18-beta.2',
+76 silly addNameRange     '1.3.18-beta.3',
+76 silly addNameRange     '1.3.18',
+76 silly addNameRange     '1.3.19-beta.0',
+76 silly addNameRange     '1.3.19-beta.1',
+76 silly addNameRange     '1.3.19-beta.2',
+76 silly addNameRange     '1.3.19-beta.3',
+76 silly addNameRange     '1.3.19-beta.4',
+76 silly addNameRange     '1.3.19',
+76 silly addNameRange     '1.3.20',
+76 silly addNameRange     '1.4.1-beta.0',
+76 silly addNameRange     '1.4.0-beta.1',
+76 silly addNameRange     '1.4.0-beta.2',
+76 silly addNameRange     '1.4.0-beta.3',
+76 silly addNameRange     '1.4.0-beta.5',
+76 silly addNameRange     '1.4.0-beta.6',
+76 silly addNameRange     '1.4.0-beta.7',
+76 silly addNameRange     '1.3.21-beta.0',
+76 silly addNameRange     '1.3.21-beta.1',
+76 silly addNameRange     '1.3.21',
+76 silly addNameRange     '1.3.22',
+76 silly addNameRange     '1.4.0-beta.8',
+76 silly addNameRange     '1.4.0-beta.9',
+76 silly addNameRange     '1.4.0-beta.10',
+76 silly addNameRange     '1.4.0-beta.11',
+76 silly addNameRange     '1.4.0-beta.12',
+76 silly addNameRange     '1.4.0-beta.13',
+76 silly addNameRange     '1.4.0-beta.14',
+76 silly addNameRange     '1.4.0-beta.15',
+76 silly addNameRange     '1.4.0-beta.16',
+76 silly addNameRange     '1.4.0-beta.17',
+76 silly addNameRange     '1.4.0-beta.18',
+76 silly addNameRange     '1.4.0',
+76 silly addNameRange     '1.4.1',
+76 silly addNameRange     '1.4.2',
+76 silly addNameRange     '1.4.3',
+76 silly addNameRange     '1.4.4-beta.0',
+76 silly addNameRange     '1.4.4-beta.2',
+76 silly addNameRange     '1.4.4',
+76 silly addNameRange     '1.4.5-beta.0',
+76 silly addNameRange     '1.4.5-beta.1',
+76 silly addNameRange     '1.4.5-beta.2',
+76 silly addNameRange     '1.4.5-beta.3',
+76 silly addNameRange     '1.4.5',
+76 silly addNameRange     '1.4.6-beta.0',
+76 silly addNameRange     '1.4.6',
+76 silly addNameRange     '1.4.7',
+76 silly addNameRange     '1.4.8',
+76 silly addNameRange     '1.5.0-beta.0',
+76 silly addNameRange     '1.5.0-beta.1',
+76 silly addNameRange     '1.5.0',
+76 silly addNameRange     '1.5.1-beta.0',
+76 silly addNameRange     '1.5.1-beta.1',
+76 silly addNameRange     '1.5.1-beta.2',
+76 silly addNameRange     '1.5.1-beta.3',
+76 silly addNameRange     '1.5.1-beta.4',
+76 silly addNameRange     '1.5.1',
+76 silly addNameRange     '1.5.2',
+76 silly addNameRange     '1.5.3',
+76 silly addNameRange     '1.5.4',
+76 silly addNameRange     '1.5.5',
+76 silly addNameRange     '1.6.0-beta.1',
+76 silly addNameRange     '1.6.0',
+76 silly addNameRange     '1.6.1',
+76 silly addNameRange     '1.6.2-beta.0',
+76 silly addNameRange     '1.6.2-beta.1',
+76 silly addNameRange     '1.6.2-beta.2',
+76 silly addNameRange     '1.6.2',
+76 silly addNameRange     '1.6.3-beta.0',
+76 silly addNameRange     '1.6.3-beta.1',
+76 silly addNameRange     '1.6.3',
+76 silly addNameRange     '1.6.4-beta.0',
+76 silly addNameRange     '1.6.4-beta.1',
+76 silly addNameRange     '1.6.4',
+76 silly addNameRange     '1.7.0-beta.0',
+76 silly addNameRange     '1.7.0-beta.1',
+76 silly addNameRange     '1.7.0-beta.2',
+76 silly addNameRange     '1.7.0-beta.3',
+76 silly addNameRange     '2.0.0-alpha.1',
+76 silly addNameRange     '2.0.0-alpha.3',
+76 silly addNameRange     '1.7.0-beta.4',
+76 silly addNameRange     '1.6.5-testing.0',
+76 silly addNameRange     '1.6.5-testing.1',
+76 silly addNameRange     '1.6.5-testing.2',
+76 silly addNameRange     '1.6.5-testing.3',
+76 silly addNameRange     '1.6.5',
+76 silly addNameRange     '2.0.0-alpha.4',
+76 silly addNameRange     '1.7.0-beta.5',
+76 silly addNameRange     '1.7.0-beta.6',
+76 silly addNameRange     '1.7.0',
+76 silly addNameRange     '2.0.0-alpha.5',
+76 silly addNameRange     '2.0.0-alpha.6',
+76 silly addNameRange     '1.7.1',
+76 silly addNameRange     '2.0.0-alpha.7',
+76 silly addNameRange     '2.0.0-alpha.8',
+76 silly addNameRange     '1.7.2',
+76 silly addNameRange     '1.7.3',
+76 silly addNameRange     '1.7.4',
+76 silly addNameRange     '1.7.5',
+76 silly addNameRange     '1.7.6',
+76 silly addNameRange     '1.7.7-beta.0',
+76 silly addNameRange     '2.0.0-alpha.9',
+76 silly addNameRange     '1.7.7',
+76 silly addNameRange     '2.0.0-alpha.10',
+76 silly addNameRange     '2.0.0-alpha.11',
+76 silly addNameRange     '2.0.0-alpha.12',
+76 silly addNameRange     '2.0.0-alpha.13',
+76 silly addNameRange     '2.0.0-alpha.14',
+76 silly addNameRange     '2.0.0-alpha.15',
+76 silly addNameRange     '2.0.0-alpha.16',
+76 silly addNameRange     '2.0.0-alpha.17',
+76 silly addNameRange     '2.0.0-alpha.18',
+76 silly addNameRange     '1.7.8-beta.0',
+76 silly addNameRange     '1.7.8-beta.1',
+76 silly addNameRange     '1.7.8-beta.2',
+76 silly addNameRange     '1.7.8-beta.3',
+76 silly addNameRange     '1.7.8',
+76 silly addNameRange     '2.0.0-alpha.19',
+76 silly addNameRange     '2.0.0-alpha.20',
+76 silly addNameRange     '2.0.0-alpha.21',
+76 silly addNameRange     '2.0.0-alpha.22',
+76 silly addNameRange     '2.0.0-alpha.23',
+76 silly addNameRange     '1.7.9',
+76 silly addNameRange     '1.7.10',
+76 silly addNameRange     '2.0.0-alpha.24',
+76 silly addNameRange     '2.0.0-alpha.25',
+76 silly addNameRange     '2.0.0-beta.1',
+76 silly addNameRange     '1.7.11',
+76 silly addNameRange     '2.0.0-beta.2',
+76 silly addNameRange     '2.0.0-beta.3',
+76 silly addNameRange     '2.0.0-beta.4',
+76 silly addNameRange     '2.0.0-beta.5',
+76 silly addNameRange     '2.0.0-beta.6',
+76 silly addNameRange     '2.0.0-beta.7',
+76 silly addNameRange     '2.0.0-beta.8',
+76 silly addNameRange     '2.0.0-beta.9',
+76 silly addNameRange     '2.0.0-beta.10',
+76 silly addNameRange     '2.0.0-beta.11',
+76 silly addNameRange     '1.7.12',
+76 silly addNameRange     '2.0.0-beta.12',
+76 silly addNameRange     '2.0.0-beta.13',
+76 silly addNameRange     '2.0.0-beta.14',
+76 silly addNameRange     '2.0.0-beta.15',
+76 silly addNameRange     '2.0.0-beta.16',
+76 silly addNameRange     '2.0.0-beta.17' ] ]
+77 silly addNamed ionic@1.7.12
+78 verbose addNamed "1.7.12" is a plain semver version for ionic
+79 verbose get https://registry.npmjs.org/cordova not expired, no request
+80 silly addNameRange number 2 { name: 'cordova', range: '*', hasData: true }
+81 silly addNameRange versions [ 'cordova',
+81 silly addNameRange   [ '0.0.1',
+81 silly addNameRange     '0.0.2',
+81 silly addNameRange     '0.0.3',
+81 silly addNameRange     '0.0.4',
+81 silly addNameRange     '0.0.5',
+81 silly addNameRange     '0.0.6',
+81 silly addNameRange     '0.0.7',
+81 silly addNameRange     '0.0.8',
+81 silly addNameRange     '0.0.9',
+81 silly addNameRange     '0.1.0',
+81 silly addNameRange     '0.1.1',
+81 silly addNameRange     '0.1.2',
+81 silly addNameRange     '0.1.3',
+81 silly addNameRange     '0.1.4',
+81 silly addNameRange     '0.1.5',
+81 silly addNameRange     '0.1.6',
+81 silly addNameRange     '0.1.7',
+81 silly addNameRange     '0.1.8',
+81 silly addNameRange     '0.1.9',
+81 silly addNameRange     '0.1.10',
+81 silly addNameRange     '0.1.11',
+81 silly addNameRange     '0.1.12',
+81 silly addNameRange     '0.1.13',
+81 silly addNameRange     '0.1.14',
+81 silly addNameRange     '2.2.0',
+81 silly addNameRange     '2.3.0',
+81 silly addNameRange     '2.3.1',
+81 silly addNameRange     '2.3.2',
+81 silly addNameRange     '2.3.3',
+81 silly addNameRange     '2.3.5',
+81 silly addNameRange     '2.3.6',
+81 silly addNameRange     '2.4.0',
+81 silly addNameRange     '2.4.1',
+81 silly addNameRange     '2.4.2',
+81 silly addNameRange     '2.4.3',
+81 silly addNameRange     '2.4.4',
+81 silly addNameRange     '2.4.5',
+81 silly addNameRange     '2.4.6',
+81 silly addNameRange     '2.4.7',
+81 silly addNameRange     '2.4.8',
+81 silly addNameRange     '2.4.9',
+81 silly addNameRange     '2.4.10',
+81 silly addNameRange     '2.5.0',
+81 silly addNameRange     '2.5.2',
+81 silly addNameRange     '2.5.3',
+81 silly addNameRange     '2.5.4',
+81 silly addNameRange     '2.5.5',
+81 silly addNameRange     '2.6.0',
+81 silly addNameRange     '2.6.1',
+81 silly addNameRange     '2.6.2',
+81 silly addNameRange     '2.7.0-rc.1',
+81 silly addNameRange     '2.7.1-rc.1',
+81 silly addNameRange     '2.7.2',
+81 silly addNameRange     '2.7.3',
+81 silly addNameRange     '2.7.4',
+81 silly addNameRange     '2.8.0',
+81 silly addNameRange     '2.8.1',
+81 silly addNameRange     '2.8.2',
+81 silly addNameRange     '2.8.3',
+81 silly addNameRange     '2.8.4',
+81 silly addNameRange     '2.8.5',
+81 silly addNameRange     '2.8.6',
+81 silly addNameRange     '2.8.7',
+81 silly addNameRange     '2.8.8',
+81 silly addNameRange     '2.8.9',
+81 silly addNameRange     '2.8.10',
+81 silly addNameRange     '2.8.11',
+81 silly addNameRange     '2.8.12',
+81 silly addNameRange     '2.8.13',
+81 silly addNameRange     '2.8.14',
+81 silly addNameRange     '2.8.15',
+81 silly addNameRange     '2.8.16',
+81 silly addNameRange     '2.8.17',
+81 silly addNameRange     '2.8.18',
+81 silly addNameRange     '2.8.19',
+81 silly addNameRange     '2.8.20',
+81 silly addNameRange     '2.8.21',
+81 silly addNameRange     '2.8.22',
+81 silly addNameRange     '2.8.23',
+81 silly addNameRange     '2.8.24',
+81 silly addNameRange     '2.8.25',
+81 silly addNameRange     '2.9.0',
+81 silly addNameRange     '2.9.1',
+81 silly addNameRange     '2.9.2',
+81 silly addNameRange     '2.9.3',
+81 silly addNameRange     '2.9.4',
+81 silly addNameRange     '2.9.5',
+81 silly addNameRange     '2.9.6',
+81 silly addNameRange     '2.9.7',
+81 silly addNameRange     '3.0.0-rc1',
+81 silly addNameRange     '3.0.0-rc1-1',
+81 silly addNameRange     '3.0.0-rc1-3',
+81 silly addNameRange     '3.0.0',
+81 silly addNameRange     '3.0.1',
+81 silly addNameRange     '3.0.2',
+81 silly addNameRange     '3.0.3',
+81 silly addNameRange     '3.0.4',
+81 silly addNameRange     '3.0.5',
+81 silly addNameRange     '3.0.6',
+81 silly addNameRange     '3.0.7',
+81 silly addNameRange     '3.0.8',
+81 silly addNameRange     '3.0.9',
+81 silly addNameRange     '3.0.10',
+81 silly addNameRange     '3.1.0-0.1.0',
+81 silly addNameRange     '3.1.0-0.2.0',
+81 silly addNameRange     '3.2.0-rc.1',
+81 silly addNameRange     '3.2.0-0.1.0',
+81 silly addNameRange     '3.2.0-0.2.0',
+81 silly addNameRange     '3.2.0-0.3.0',
+81 silly addNameRange     '3.2.0-0.4.0',
+81 silly addNameRange     '3.3.0-rc.1',
+81 silly addNameRange     '3.3.0-0.1.1',
+81 silly addNameRange     '3.3.1-0.1.2',
+81 silly addNameRange     '2.9.0-rc1',
+81 silly addNameRange     '3.3.1-0.3.0',
+81 silly addNameRange     '3.3.1-0.3.1',
+81 silly addNameRange     '3.3.1-0.4.1',
+81 silly addNameRange     '3.3.1-0.4.2',
+81 silly addNameRange     '3.4.0-0.1.0',
+81 silly addNameRange     '3.4.0-0.1.1',
+81 silly addNameRange     '3.4.0-0.1.2',
+81 silly addNameRange     '3.4.0-0.1.3',
+81 silly addNameRange     '0.0.0-fake',
+81 silly addNameRange     '3.4.1-0.1.0',
+81 silly addNameRange     '3.5.0-0.2.0',
+81 silly addNameRange     '3.5.0-0.2.1',
+81 silly addNameRange     '3.5.0-0.2.2',
+81 silly addNameRange     '3.5.0-0.2.3',
+81 silly addNameRange     '3.5.0-0.2.4',
+81 silly addNameRange     '3.5.0-0.2.6',
+81 silly addNameRange     '3.5.0-0.2.7',
+81 silly addNameRange     '3.6.0-0.2.8',
+81 silly addNameRange     '3.6.0-0.2.9',
+81 silly addNameRange     '3.6.1-0.2.10',
+81 silly addNameRange     '3.6.3-0.2.11',
+81 silly addNameRange     '3.6.3-0.2.12',
+81 silly addNameRange     '3.6.3-0.2.13',
+81 silly addNameRange     '4.0.0',
+81 silly addNameRange     '4.0.1',
+81 silly addNameRange     '4.1.0',
+81 silly addNameRange     '4.1.1',
+81 silly addNameRange     '4.1.2',
+81 silly addNameRange     '4.1.3-nightly.2014.10.21',
+81 silly addNameRange     '4.2.0',
+81 silly addNameRange     '4.3.0',
+81 silly addNameRange     '5.0.0',
+81 silly addNameRange     '4.3.1',
+81 silly addNameRange     '5.1.1',
+81 silly addNameRange     '5.2.0',
+81 silly addNameRange     '5.3.1',
+81 silly addNameRange     '5.3.3',
+81 silly addNameRange     '5.4.0',
+81 silly addNameRange     '5.4.1' ] ]
+82 silly addNamed cordova@5.4.1
+83 verbose addNamed "5.4.1" is a plain semver version for cordova
+84 silly mapToRegistry name ionic
+85 silly mapToRegistry using default registry
+86 silly mapToRegistry registry https://registry.npmjs.org/
+87 silly mapToRegistry uri https://registry.npmjs.org/ionic
+88 verbose addRemoteTarball https://registry.npmjs.org/ionic/-/ionic-1.7.12.tgz not in flight; adding
+89 verbose addRemoteTarball [ 'https://registry.npmjs.org/ionic/-/ionic-1.7.12.tgz',
+89 verbose addRemoteTarball   '87cdf5b9ff748009182a10c61bbc3a39a000fe59' ]
+90 silly mapToRegistry name cordova
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry https://registry.npmjs.org/
+93 silly mapToRegistry uri https://registry.npmjs.org/cordova
+94 verbose addRemoteTarball https://registry.npmjs.org/cordova/-/cordova-5.4.1.tgz not in flight; adding
+95 verbose addRemoteTarball [ 'https://registry.npmjs.org/cordova/-/cordova-5.4.1.tgz',
+95 verbose addRemoteTarball   'bc56bc1d3c5387a7926408212dfbce59002f9d76' ]
+96 info retry fetch attempt 1 at 21:51:58
+97 info attempt registry request try #1 at 21:51:58
+98 http fetch GET https://registry.npmjs.org/ionic/-/ionic-1.7.12.tgz
+99 verbose request using bearer token for auth
+100 info retry fetch attempt 1 at 21:51:58
+101 info attempt registry request try #1 at 21:51:58
+102 http fetch GET https://registry.npmjs.org/cordova/-/cordova-5.4.1.tgz
+103 verbose request using bearer token for auth
+104 http fetch 200 https://registry.npmjs.org/ionic/-/ionic-1.7.12.tgz
+105 http fetch 200 https://registry.npmjs.org/cordova/-/cordova-5.4.1.tgz
+106 silly fetchAndShaCheck shasum bc56bc1d3c5387a7926408212dfbce59002f9d76
+107 verbose addTmpTarball C:\Users\Gabriela\AppData\Local\Temp\npm-5364-c6435b05\registry.npmjs.org\cordova\-\cordova-5.4.1.tgz not in flight; adding
+108 verbose addTmpTarball already have metadata; skipping unpack for cordova@5.4.1
+109 silly cache afterAdd cordova@5.4.1
+110 verbose afterAdd C:\Users\Gabriela\AppData\Roaming\npm-cache\cordova\5.4.1\package\package.json not in flight; writing
+111 verbose afterAdd C:\Users\Gabriela\AppData\Roaming\npm-cache\cordova\5.4.1\package\package.json written
+112 silly fetchAndShaCheck shasum 87cdf5b9ff748009182a10c61bbc3a39a000fe59
+113 silly rollbackFailedOptional Starting
+114 silly rollbackFailedOptional Finishing
+115 silly runTopLevelLifecycles Starting
+116 silly runTopLevelLifecycles Finishing
+117 silly install printInstalled
+118 verbose stack Error: shasum check failed for C:\Users\Gabriela\AppData\Local\Temp\npm-5364-c6435b05\registry.npmjs.org\ionic\-\ionic-1.7.12.tgz
+118 verbose stack Expected: 87cdf5b9ff748009182a10c61bbc3a39a000fe59
+118 verbose stack Actual:   557fccf52ac9da655f6b2a44cde1a7a0bb381aff
+118 verbose stack From:     https://registry.npmjs.org/ionic/-/ionic-1.7.12.tgz
+118 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:25:8
+118 verbose stack     at ReadStream.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:72:7)
+118 verbose stack     at emitNone (events.js:72:20)
+118 verbose stack     at ReadStream.emit (events.js:166:7)
+118 verbose stack     at endReadableNT (_stream_readable.js:905:12)
+118 verbose stack     at nextTickCallbackWith2Args (node.js:455:9)
+118 verbose stack     at process._tickCallback (node.js:369:17)
+119 verbose cwd C:\Users\Gabriela\Documents\GitHub
+120 error Windows_NT 6.1.7600
+121 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "cordova" "ionic"
+122 error node v5.3.0
+123 error npm  v3.3.12
+124 error shasum check failed for C:\Users\Gabriela\AppData\Local\Temp\npm-5364-c6435b05\registry.npmjs.org\ionic\-\ionic-1.7.12.tgz
+124 error Expected: 87cdf5b9ff748009182a10c61bbc3a39a000fe59
+124 error Actual:   557fccf52ac9da655f6b2a44cde1a7a0bb381aff
+124 error From:     https://registry.npmjs.org/ionic/-/ionic-1.7.12.tgz
+125 error If you need help, you may report this error at:
+125 error     <https://github.com/npm/npm/issues>
+126 verbose exit [ 1, true ]
