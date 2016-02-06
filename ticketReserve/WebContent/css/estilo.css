@@ -2,6 +2,8 @@ body
 {
 	font-family: "Open Sans";
     font-size: 14pt; 
+    margin: 5px;
+    background-color: #fdfdfd;
 }
 
 h1
@@ -281,3 +283,8 @@ h4
     vertical-align:top;
     white-space:nowrap;
 }
+
+li:hover{
+	background:#9ec9ff;				
+}
+

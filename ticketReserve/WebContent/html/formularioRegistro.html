@@ -49,7 +49,7 @@
 				<table>
 					<tr>
 						<td class="td">Nombres: </td>
-						<td class="td"><input type="text" name="nombre" class="campoTexto" ng-model="nuevoUsuario.nombre"></td>
+						<td class="td"><input type="text" name="nombre" class="campoTexto" ng-model="nuevoUsuario.nombre" autofocus="autofocus"></td>
 					</tr>
 					<tr>
 						<td class="td">Apellidos: </td>
@@ -61,7 +61,7 @@
 					</tr>
 					<tr>
 						<td class="td">Correo Electr&oacute;nico: </td>
-						<td class="td"><input type="text" name="direccion" class="campoTexto" ng-model="nuevoUsuario.correoelectronico"></td>
+						<td class="td"><input type="email" name="correo" class="campoTexto" ng-model="nuevoUsuario.correoelectronico" required="required"></td>						
 					</tr>
 					<tr>
 						<td class="td">Usuario: </td>
@@ -82,11 +82,7 @@
 	</section>
 	<footer>
 		<hr/>
-		<table align="center">
-			<tr>
-				<td>Derechos Reservados</td>
-			</tr>
-		</table>
+		<center>Derechos Reservados</center>		
 	</footer>
 </body>
 </html>

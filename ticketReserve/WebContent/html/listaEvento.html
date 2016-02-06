@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/estilo.css" type="text/css">
      <link href="../css/kendo.common.min.css" rel="stylesheet" />
     <link href="../css/kendo.default.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/estiloTabla.css" type="text/css">
 
 	<script src="../js/libs/jquery.min.js"></script>
 	<script src="../js/libs/angular.min.js"></script>
@@ -52,7 +53,7 @@
 			<script>
 		debugger;
 		</script>
-				Buscar: <input name="txtBuscar" type="text" ng-model="nombreevento"> 
+				Buscar: <input name="txtBuscar" type="text" ng-model="nombreevento" autofocus="autofocus"> 
 				<input type="button" class="boton"  ng-model="nombreevento" ng-click="buscar()" value="Buscar"/><br><br>
 				<script>
 		debugger;
@@ -79,11 +80,7 @@
 	</section>
 	<footer>
 		<hr/>
-		<table align="center">
-			<tr>
-				<td>Derechos Reservados</td>
-			</tr>
-		</table>
+		<center>Derechos Reservados</center>		
 	</footer>
 </body>
 </html>
