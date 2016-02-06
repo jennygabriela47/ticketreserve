@@ -62,31 +62,29 @@
 				</tr>
 				<br/>
 				<tr>
-					<td></td><td></td><td></td>				
-					<td></td>
 					<td>
 						<form>	
 						<tr ng-repeat="e in evento " ng-repeat='l in evento1'>
-						<td>{{e.nombreevento}}</td>
-			    		<td>{{e.descripcionevento}}</td>
-			    		<td>{{e.fechaevento}}</td>
-			    		<td ng-module="filtrar.codigoubicacion"  value="{{l.nombreubicacion}}" ng-repeat='td in eventos | filter:filtrar'>
-			    		{{l.nombreubicacion}}</td>
-			    		
-                       
-                    </select>
-
-
-	<td ng-repeat='td in eventos | filter:busqueda'></td>
-					</tr>						
-							<input type="submit" value="Seleccionar" class="boton" />
+							<td>{{e.nombreevento}}</td>
+				    		<td>{{e.descripcionevento}}</td>
+				    		<td>{{e.fechaevento}}</td>
+				    		<td ng-module="filtrar.codigoubicacion"  value="{{l.nombreubicacion}}" ng-repeat='td in eventos | filter:filtrar'>
+				    			{{l.nombreubicacion}}
+				    		</td>
+							<td ng-repeat='td in eventos | filter:busqueda'></td>
+							<td>
+								<input type="submit" value="Seleccionar" class="boton" />
+							</td>
+							<td>
+								<form>
+									<td><input type="submit" value="Eliminar" class="boton" /></td>
+								</form>	
+							</td>
+						</tr>	
+									
+							
 						</form>
 					</td>
-					<td>
-						<form>
-							<td><input type="submit" value="Eliminar" class="boton" /></td>
-						</form>	
-					</td>	
 				</tr>
 			</table>
 			<br/>

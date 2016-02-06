@@ -44,7 +44,7 @@
 	</nav>
 	<section>
 		<br/>	
-		<table  border="1">
+		<table class="table">
 			<tr>
 				<th>Codigo Reserva</th>
 				<th>N&uacute;mero de Boletos</th>
@@ -61,15 +61,12 @@
 						<td>{{r.codigoboleto}}</td>
 						<td>{{r.codigousuario}}</td>
 			      		<td>{{r.fechareserva}}</td>
-			    		</tr>
-						
-				
-				<td>
-					<form method="post" action="EliminarReserva">				
-						<input type="submit" value="Eliminar" class="boton"/>
-					</form>
-				</td>
-			
+			      		<td>
+							<form method="post" action="EliminarReserva">				
+								<input type="submit" value="Eliminar" class="boton"/>
+							</form>
+						</td>
+			    		</tr>															
 		</table>
 		<br/>
 	</section>
